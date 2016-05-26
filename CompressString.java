@@ -12,7 +12,6 @@ public class CompressString {
 				compressed.append(count);
 				count = 0;
 			}
-
 		}
 		return compressed.length() < s.length() ? compressed.toString() : s;	
 	}
